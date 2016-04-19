@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "request": "^2.65.0",
-    "slack-terminalize": "^0.0.3"
+    "slack-terminalize": "file:///Users/gnramesh/Documents/dev/personal/slack-terminalize"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

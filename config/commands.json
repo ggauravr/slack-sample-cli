@@ -13,7 +13,7 @@
 		"description": "Fetches details of the specified Ruby gem"
 	},
 
-	"app-error": {
+	"error": {
 		"exclude": true
 	}
 }

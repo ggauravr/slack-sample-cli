@@ -1,3 +1,4 @@
+var webClient = require('slack-terminalize').getWebClient();
 /**
  * Wrapper function for postMessage from slack-client to handle formatting.
  * 
@@ -12,9 +13,8 @@ var postMessage = function (channel, response, format) {
 	format = format || true;
 	response = (format && '```' + response + '```') || response;
 
-	channel.postMessage({
-		as_user: true,
-		text: response
+	webClient.chat.postMessage(channel, response, {
+		as_user: true
 	});
 
 };
