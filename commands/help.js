@@ -38,4 +38,4 @@ module.exports = function (param) {
 	}
 
 	util.postMessage(channel, response);
-};};};
+};
