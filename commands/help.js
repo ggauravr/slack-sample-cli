@@ -1,5 +1,5 @@
 var slackTerminal 	= require('slack-terminalize'),
-	commands 		= slackTerminal.getCommandObjects(),
+	commands 		= slackTerminal.getCommands(),
 	util			= require('../util');
 
 var _helpAll = function () {
